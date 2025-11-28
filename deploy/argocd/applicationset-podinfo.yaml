@@ -30,7 +30,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/stefanprodan/podinfo.git
+        repoURL: https://github.com/jmatias/podinfo.git
         targetRevision: main
         path: "{{path}}"
         kustomize:
