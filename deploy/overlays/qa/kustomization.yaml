@@ -6,6 +6,7 @@ resources:
   - ../../bases/frontend
   - ../../bases/cache
   - namespace.yaml
+  - ingress.yaml
   - feature-flags.yaml
 transformers:
   - labels.yaml
