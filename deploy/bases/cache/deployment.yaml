@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: redis
-          image: docker.io/redis:8.4.0
+          image: 745892955196.dkr.ecr.us-east-1.amazonaws.com/docker-hub/library/redis:8.4.0
           imagePullPolicy: IfNotPresent
           command:
             - redis-server
